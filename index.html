@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic</title>
+
+    <style>
+        body
+        {
+            background-color: #E1EEBC;
+        }
+
+        div
+        {
+            height: 200px;
+            width: 200px;
+            background-color: #328E6E;
+            border: 7px solid black;
+            border-radius: 9px;
+            margin: auto;
+            text-align: center;
+            padding: 5px;
+            color:wheat;
+        }
+        div:hover{
+            background-color:cadetblue;
+        }
+
+        P
+        {
+            background-color: #90C67C;
+            text-align: center;
+            color: red;
+           
+        }
+    </style>
+</head>
+<body>
+    <p>QUESTION NO:01</p>
+        <div>
+            <script>
+            document.write("<h2>Name: MD WASIUZZAMAN</h2>");
+            document.write("Address: MUZAFFARPUR");
+            </script>
+        </div>
+     
+    <p>QUESTION NO:02</p>
+        <div>
+            <script>
+                function checktwovariable()
+                {
+                    let x=6, y=5;
+                    if(x===y)
+                    {
+                        document.write("two variable is equal")
+                    }
+                    else
+                    {
+                        document.write("two variable is not equal")
+                    }
+                }
+             checktwovariable()
+            </script>
+        </div>
+
+        <p>QUESTION NO:03</p>
+        <div>
+            <script>
+                function String()
+                {
+                    let x= "Md" , y= "Wasiuzzaman" 
+                    let z= x.concat(" ",y)
+                    let z1= z.toUpperCase();
+                    document.write(z)
+                    document.write("<br><br>")
+                    document.write(z1)
+                }
+                String()
+            </script>
+        </div>
+
+        <p>QUESTION NO:04</p>
+        <div>
+            <script>
+                function convertbytes()
+                {
+                    let x= "Wasiuzzamn"
+                
+                    document.write("<br><br>")
+                    document.write("length of string: ",x.length)
+                }
+                convertbytes()
+           </script>
+        </div>
+
+        <p>QUESTION NO:05</p>
+         <div>
+            <script>
+                function roundnumber()
+                {
+                let x= 3.53453
+                document.write("<br><br>")
+                document.write("original number is: ", x)
+                let rounded_num = Math.round(x)
+                document.write("<br><br>")
+                document.write("rounded number is: ", rounded_num)
+                }
+                roundnumber()
+            </script>
+        </div>    
+</body>
+</html>
